@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MOC3061SR2M'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "MOC3061SR2M" (!) = "", "SOT254P916X508-6N", "SOT23 (6-Pin)", "512-MOC3061SR2M", "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MOC3061SR2M?qs=QsyUFYHC2%2FbVF%2F%252BX5tJ1cA%3D%3D", "Triac & SCR Output Optocouplers 6Pin600V Optocoupler Zero Cross Triac Dr", "http://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf", "5.08 mm"
+END_PART
+
+END.

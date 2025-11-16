@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=B32921C3223M289
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=5.2
+Released=2020-05-25 11:38:01
+Downloaded=2024-11-29 08:18:35
+3D=Y

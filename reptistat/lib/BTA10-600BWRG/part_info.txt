@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=BTA10-600BWRG
+PartCategory=Triac MT
+PackageCategory=Transistor Outline, Vertical
+PinCount=3
+Version=6.1
+Released=2021-01-01 05:46:41
+Downloaded=2024-11-23 05:33:55
+3D=Y

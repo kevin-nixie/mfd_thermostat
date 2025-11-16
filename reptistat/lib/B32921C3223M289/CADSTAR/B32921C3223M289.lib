@@ -1,0 +1,16 @@
+.B32921C3223M289 :1 ;Cap Film Suppression X2 0.022uF 305VAC PP 20% (13 X 4 X 9mm) Radial 10mm 105C Ammo
+B32921C3103M000
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN B32921C3223M289
+~!Mouser Part Number (871-B32921C3223M289)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32921C3223M289?qs=w5o0Loj0u7PCwfh7XJ3saQ%3D%3D)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (B32921C3223M289)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf)
+~!Height (9mm)
+~!3D_Model (B32921C3223M289)
+B32921C3223M289
+1.1!U 2.1!U 

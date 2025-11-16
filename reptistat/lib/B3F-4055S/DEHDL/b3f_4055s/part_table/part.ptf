@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B3F_4055S'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Omron Electronics", "B3F-4055S" (!) = "", "B3F4055S", "Other", "653-B3F-4055S", "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3F-4055S?qs=nUVjeaT6QSw5AU9Uc2mCbQ%3D%3D", "Tactile Switches 12X12 PROJ 7.3MM BTN TACTILE", "https://media.digikey.com/pdf/Data%20Sheets/Omron%20PDFs/B3F.pdf", "7.5 mm"
+END_PART
+
+END.

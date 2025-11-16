@@ -1,0 +1,106 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "IRM-02-3.3"
+   (description "Power Supply Encapsulated PCB 3.3V 2W")
+   (family "ANA")
+   (package "IRM-02(PCB-MOUNTING)")
+   (attribute "Datasheet Link" "http://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF")
+   (attribute "Mouser Part Number" "709-IRM02-3.3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/IRM-02-3.3?qs=C9r8PV%2F%252BoWOqS8sbyxobNQ%3D%3D")
+   (attribute "Manufacturer_Name" "Mean Well")
+   (attribute "Manufacturer_Part_Number" "IRM-02-3.3")
+   (gate
+    (symbol "IRM-02-3.3")
+    (pin "-V" 1 PS)
+    (pin "AC/N" 2 PS)
+    (pin "AC/L" 3 PS)
+    (pin "+V" 4 PS)
+   )
+  )
+  (symbol "IRM-02-3.3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "IRM-02(PCB-MOUNTING)"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0 22.2)
+      (pt 33.7 22.2)
+      (pt 33.7 0)
+      (pt 0 0)
+      (pt 0 22.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 0)
+      (pt 0 22.2)
+      (pt 33.7 22.2)
+      (pt 33.7 0)
+      (pt 0 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.5)
+     (circle
+      (pt 0.828 -4.242) (pt 1.382 -4.242)
+     )
+    )
+   )
+   (leg 1 (pt 2.85 3.6) (padstack 0))
+   (leg 2 (pt 30.85 3.6) (padstack 0))
+   (leg 3 (pt 30.85 18.8) (padstack 0))
+   (leg 4 (pt 2.85 11.2) (padstack 0))
+   (padstack 0
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (round 1.45))
+    (pad (layer INNER) (round 1.45))
+    (pad (layer BCOP) (round 1.45))
+   )
+   (model "IRM-02-3.3.stp"
+    (euler 0 0 90)
+    (offset 78.2300033569336 -7.340000152587891 5.519999980926514)
+   )
+  )
+ )
+)

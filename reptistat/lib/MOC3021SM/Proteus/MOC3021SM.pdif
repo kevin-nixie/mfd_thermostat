@@ -1,0 +1,132 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MOC3021SM"
+   (description "6-Pin DIP Random-Phase Triac Driver Output Optocoupler (250/400 V Peak)")
+   (family "ANA")
+   (package "SOP254P916X480-6N")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF")
+   (attribute "Geometry.Height" "4.8mm")
+   (attribute "Mouser Part Number" "512-MOC3021SM")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MOC3021SM?qs=ZS9em9a1DI4mnS4oQ%2FdKAA%3D%3D")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "MOC3021SM")
+   (gate
+    (symbol "MOC3021SM")
+    (pin "ANODE" 1 PS)
+    (pin "CATHODE" 2 PS)
+    (pin "N/C" 3 NC)
+    (pin "MAIN_TERM._2" 6 PS)
+    (pin "NC" 5 NC)
+    (pin "MAIN_TERM._1" 4 PS)
+   )
+  )
+  (symbol "MOC3021SM"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1500 100) (pt 1500 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1700 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP254P916X480-6N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.55 4.695)
+      (pt 5.55 4.695)
+      (pt 5.55 -4.695)
+      (pt -5.55 -4.695)
+      (pt -5.55 4.695))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.175 4.255)
+      (pt 3.175 4.255)
+      (pt 3.175 -4.255)
+      (pt -3.175 -4.255)
+      (pt -3.175 4.255))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.175 1.715)
+      (pt -0.635 4.255))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.9 4.255)
+      (pt 2.9 4.255)
+      (pt 2.9 -4.255)
+      (pt -2.9 -4.255)
+      (pt -2.9 4.255))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.3 3.24)
+      (pt -3.25 3.24))))
+   (leg 1 (pt -4.275 2.54) (padstack 0))
+   (leg 2 (pt -4.275 0) (padstack 0))
+   (leg 3 (pt -4.275 -2.54) (padstack 0))
+   (leg 4 (pt 4.275 -2.54) (padstack 0))
+   (leg 5 (pt 4.275 0) (padstack 0))
+   (leg 6 (pt 4.275 2.54) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.7 2.05 0 0 0))
+   )
+   (model "MOC3021SM.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

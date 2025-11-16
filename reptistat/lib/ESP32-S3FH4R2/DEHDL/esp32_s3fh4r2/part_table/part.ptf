@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ESP32_S3FH4R2'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Espressif Systems", "ESP32-S3FH4R2" (!) = "", "QFN40P700X700X90-57N-D", "Quad Flat No-Lead", "356-ESP32-S3FH4R2", "https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S3FH4R2?qs=tlsG%2FOw5FFjPrwkmZSBQNA%3D%3D", "RF System on a Chip - SoC SMD IC ESP32-S3FH4R2, dual-core MCU, Wi-Fi 2.4G & BLE 5.0 combo, 4 MB flash and 2 MB PSRAM inside, QFN 56-pin, 7*7 mm", "", "0.9 mm"
+END_PART
+
+END.

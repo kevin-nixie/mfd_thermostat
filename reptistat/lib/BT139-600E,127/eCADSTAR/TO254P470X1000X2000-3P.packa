@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BT139-600E_127"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-22-04:01:15)
+    (mountForm default
+        (footprintRef "TO254P470X1000X2000-3P")
+        (spec "System")
+    )
+)

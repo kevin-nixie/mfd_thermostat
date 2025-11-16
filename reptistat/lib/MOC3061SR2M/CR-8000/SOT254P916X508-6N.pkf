@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SOT254P916X508-6N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SOT254P916X508-6N")
+        (spec "default")
+    )
+)

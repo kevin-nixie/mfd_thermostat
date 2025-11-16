@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MOC3061SR2M
+#/4638687/1052210/2.50/6/3/Integrated Circuit
+DEF MOC3061SR2M IC 0 30 Y Y 1 F N
+F0 "IC" 1550 300 50 H V L CNN
+F1 "MOC3061SR2M" 1550 200 50 H V L CNN
+F2 "SOT254P916X508-6N" 1550 100 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf" 1550 0 50 H I L CNN
+F4 "Triac & SCR Output Optocouplers 6Pin600V Optocoupler Zero Cross Triac Dr" 1550 -100 50 H I L CNN "Description"
+F5 "5.08" 1550 -200 50 H I L CNN "Height"
+F6 "512-MOC3061SR2M" 1550 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MOC3061SR2M?qs=QsyUFYHC2%2FbVF%2F%252BX5tJ1cA%3D%3D" 1550 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 1550 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MOC3061SR2M" 1550 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ANODE 1 0 0 200 R 50 50 0 0 P
+X CATHODE 2 0 -100 200 R 50 50 0 0 P
+X N/C 3 0 -200 200 R 50 50 0 0 N
+X MAIN_TERM._2 6 1700 0 200 L 50 50 0 0 P
+X NC 5 1700 -100 200 L 50 50 0 0 N
+X MAIN_TERM._1 4 1700 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1500 100 1500 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

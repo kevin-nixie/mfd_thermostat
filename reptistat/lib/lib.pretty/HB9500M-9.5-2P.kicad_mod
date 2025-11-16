@@ -1,0 +1,117 @@
+(footprint "HB9500M-9.5-2P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1086b03c-381c-4da4-859a-17a3bae60947")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HB9500M-9.5-2P"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0604d1d6-3b29-42c2-b4a4-5e7cc99041a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.25 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea16ac8c-9625-4455-bbb0-8ce55c9074d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.25 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e18a9879-4191-4246-90c6-98aacdc8ea98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.25 -1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91b84bbc-a633-4536-b161-26402d41bb71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.25 -8)
+		(end 10.25 8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8b70dab1-bd14-43ff-8005-53fa50a95bd1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6d37ccfd-bd7f-4735-87b1-b0d120318cdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -4.75 -4.05)
+		(size 2 1.2)
+		(drill oval 1.6 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fb8ed434-df10-4b19-b20d-ffd0efa62dac")
+	)
+	(pad "2" thru_hole oval
+		(at 4.75 -3.945)
+		(size 2 1.2)
+		(drill oval 1.6 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13acbf53-d79d-41bb-9228-d990c520ec41")
+	)
+	(group ""
+		(uuid "373db024-fccb-4343-ba19-3aed9cd87efb")
+		(members "13acbf53-d79d-41bb-9228-d990c520ec41" "fb8ed434-df10-4b19-b20d-ffd0efa62dac")
+	)
+	(group ""
+		(uuid "05c3226e-f726-410f-9821-eb531fbd647c")
+		(members "373db024-fccb-4343-ba19-3aed9cd87efb" "8b70dab1-bd14-43ff-8005-53fa50a95bd1")
+	)
+)

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_179178"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-01-01-05:46:41)
+    (utime 2024-07-14-10:08:59)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "BTA10-600BWRG")
+)
+
+
+(pinAssign "ECS_179178"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-01-01-05:46:41)
+    (utime 2024-07-14-10:08:59)
+    (interface
+        (port "1" (symbPinId 1) (portName "MT1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "MT2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "G") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_179178")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BTA10-600BWRG")
+)
+
+
+(part "BTA10-600BWRG"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-01-01-05:46:41)
+    (utime 2024-07-14-10:08:59)
+    (packageRef "BTA10-600BWRG")
+    (pinAssignRef "ECS_179178")
+    (interface
+        (port "1" (symbPinId 1) (portName "MT1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "MT2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "G") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "TRIAC Alternistor - Snubberless 600 V 10 A Through Hole TO-220")
+    (property "Mouser_Part_Number" "511-BTA10-600BW")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/BTA10-600BWRG?qs=%2Fa2FmOVcLL9HVUO2jWvyeg%3D%3D")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "BTA10-600BWRG")
+    (property "Datasheet_Link" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00004894.pdf")
+    (property "compAreaTopHeight" 4.6)
+)
+
+

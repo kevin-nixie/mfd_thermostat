@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model B32921C3223M289
+#/989201/1052210/2.50/2/2/Capacitor
+DEF B32921C3223M289 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "B32921C3223M289" 350 150 50 H V L CNN
+F2 "B32921C3103M000" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf" 350 -50 50 H I L CNN
+F4 "Cap Film Suppression X2 0.022uF 305VAC PP 20% (13 X 4 X 9mm) Radial 10mm 105C Ammo" 350 -150 50 H I L CNN "Description"
+F5 "9" 350 -250 50 H I L CNN "Height"
+F6 "871-B32921C3223M289" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32921C3223M289?qs=w5o0Loj0u7PCwfh7XJ3saQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "B32921C3223M289" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

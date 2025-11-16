@@ -1,0 +1,9 @@
+Manufacturer=Espressif Systems
+PartNumber=ESP32-S3FH4R2
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=57
+Version=1.1
+Released=2022-09-07 17:36:52
+Downloaded=2025-01-15 03:57:49
+3D=Y

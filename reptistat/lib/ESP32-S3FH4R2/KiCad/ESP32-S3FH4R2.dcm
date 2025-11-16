@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-S3FH4R2
+D RF System on a Chip - SoC SMD IC ESP32-S3FH4R2, dual-core MCU, Wi-Fi 2.4G & BLE 5.0 combo, 4 MB flash and 2 MB PSRAM inside, QFN 56-pin, 7*7 mm
+K
+F 
+$ENDCMP
+#
+#End Doc Library

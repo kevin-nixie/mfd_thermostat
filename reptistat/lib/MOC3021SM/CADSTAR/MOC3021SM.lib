@@ -1,0 +1,16 @@
+.MOC3021SM :1 ;6-Pin DIP Random-Phase Triac Driver Output Optocoupler (250/400 V Peak)
+SOP254P916X480-6N
+*STM IC
+*NGS
+*PLB 1="ANODE" 2="CATHODE" 3="N/C" 4="MAIN TERM._1" 5="NC" 6="MAIN TERM._2"
+*MXP 6
+*DFN MOC3021SM
+~!Mouser Part Number (512-MOC3021SM)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MOC3021SM?qs=ZS9em9a1DI4mnS4oQ%2FdKAA%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (MOC3021SM)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF)
+~!Height (4.8mm)
+~!3D_Model (MOC3021SM)
+MOC3021SM
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=CPC1966Y
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2018-03-20 14:49:51
+Downloaded=2024-05-27 01:55:26
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B32921C3223M289
+D Cap Film Suppression X2 0.022uF 305VAC PP 20% (13 X 4 X 9mm) Radial 10mm 105C Ammo
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf
+$ENDCMP
+#
+#End Doc Library

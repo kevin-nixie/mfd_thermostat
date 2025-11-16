@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BTA10-600BWRG
+D TRIAC Alternistor - Snubberless 600 V 10 A Through Hole TO-220
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00004894.pdf
+$ENDCMP
+#
+#End Doc Library

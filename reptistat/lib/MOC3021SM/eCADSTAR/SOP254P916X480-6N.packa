@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MOC3021SM"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-08-14:29:10)
+    (mountForm default
+        (footprintRef "SOP254P916X480-6N")
+        (spec "System")
+    )
+)

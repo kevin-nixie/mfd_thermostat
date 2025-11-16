@@ -1,0 +1,16 @@
+.IRM-02-3.3 :1 ;Power Supply Encapsulated PCB 3.3V 2W
+IRM-02_PCB-MOUNTING_
+*STM PS
+*NGS
+*PLB 1="-V" 2="AC/N" 3="AC/L" 4="+V"
+*MXP 4
+*DFN IRM-02-3.3
+~!Mouser Part Number (709-IRM02-3.3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/MEAN-WELL/IRM-02-3.3?qs=C9r8PV%2F%252BoWOqS8sbyxobNQ%3D%3D)
+~!Manufacturer_Name (Mean Well)
+~!Manufacturer_Part_Number (IRM-02-3.3)
+~!Link Datasheet (http://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF)
+~!Height (-)
+~!3D_Model (IRM-02-3.3)
+IRM-02-3.3
+1.1!U 2.1!U 3.1!U 4.1!U 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MOC3021SM
+D 6-Pin DIP Random-Phase Triac Driver Output Optocoupler (250/400 V Peak)
+K
+F https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF
+$ENDCMP
+#
+#End Doc Library

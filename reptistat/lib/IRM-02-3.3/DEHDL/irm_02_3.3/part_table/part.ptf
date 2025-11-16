@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IRM_02_3.3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Mean Well", "IRM-02-3.3" (!) = "", "IRM-02(PCB-MOUNTING)", "Other", "709-IRM02-3.3", "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/IRM-02-3.3?qs=C9r8PV%2F%252BoWOqS8sbyxobNQ%3D%3D", "Power Supply Encapsulated PCB 3.3V 2W", "http://www.meanwell.com/Upload/PDF/IRM-02/IRM-02-SPEC.PDF"
+END_PART
+
+END.

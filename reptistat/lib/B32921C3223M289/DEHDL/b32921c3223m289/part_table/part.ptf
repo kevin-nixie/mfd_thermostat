@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B32921C3223M289'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "B32921C3223M289" (!) = "", "B32921C3103M000", "Other", "871-B32921C3223M289", "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B32921C3223M289?qs=w5o0Loj0u7PCwfh7XJ3saQ%3D%3D", "Cap Film Suppression X2 0.022uF 305VAC PP 20% (13 X 4 X 9mm) Radial 10mm 105C Ammo", "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_928.pdf", "9 mm"
+END_PART
+
+END.

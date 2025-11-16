@@ -1,0 +1,16 @@
+.BT139-600E_127 :1 ;Triacs RAIL TRIAC
+TO254P470X1000X2000-3P
+*STM Q
+*NGS
+*PLB 1="MT1" 2="MT2" 3="G"
+*MXP 3
+*DFN BT139-600E_127
+~!Mouser Part Number (771-BT139-600E127)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/WeEn-Semiconductors/BT139-600E127?qs=me8TqzrmIYU78FBWg3nQmw%3D%3D)
+~!Manufacturer_Name (WeEn Semiconductors)
+~!Manufacturer_Part_Number (BT139-600E,127)
+~!Link Datasheet (-)
+~!Height (4.7mm)
+~!3D_Model (BT139-600E,127)
+BT139-600E_127
+1.1!U 2.1!U 3.1!U 

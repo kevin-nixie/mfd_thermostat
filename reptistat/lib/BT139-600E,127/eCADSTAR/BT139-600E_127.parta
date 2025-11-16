@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1198470"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-12-10-05:02:03)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "BT139-600E_127")
+)
+
+
+(pinAssign "ECS_1198470"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-12-10-05:02:03)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "MT1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "MT2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "G") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1198470")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BT139-600E_127")
+)
+
+
+(part "BT139-600E_127"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-12-10-05:02:03)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "BT139-600E_127")
+    (pinAssignRef "ECS_1198470")
+    (interface
+        (port "1" (symbPinId 1) (portName "MT1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "MT2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "G") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Triacs RAIL TRIAC")
+    (property "Mouser_Part_Number" "771-BT139-600E127")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/WeEn-Semiconductors/BT139-600E127?qs=me8TqzrmIYU78FBWg3nQmw%3D%3D")
+    (property "Manufacturer_Name" "WeEn Semiconductors")
+    (property "Manufacturer_Part_Number" "BT139-600E,127")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 4.7)
+)
+
+

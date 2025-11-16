@@ -1,0 +1,144 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BT139-600E_127"
+   (description "Triacs RAIL TRIAC")
+   (family "ANA")
+   (package "TO254P470X1000X2000-3P")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "4.7mm")
+   (attribute "Mouser Part Number" "771-BT139-600E127")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/WeEn-Semiconductors/BT139-600E127?qs=me8TqzrmIYU78FBWg3nQmw%3D%3D")
+   (attribute "Manufacturer_Name" "WeEn Semiconductors")
+   (attribute "Manufacturer_Part_Number" "BT139-600E,127")
+   (gate
+    (symbol "BT139-600E_127")
+    (pin "MT1" 1 PS)
+    (pin "MT2" 2 PS)
+    (pin "G" 3 PS)
+   )
+  )
+  (symbol "BT139-600E_127"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 120 0) (pt 480 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 350 0) (pt 350 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 250 0) (pt 250 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 350 0) (pt 500 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 250 0) (pt 100 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 350 -50) (pt 500 -150))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 350 100) (pt 350 0) (pt 250 50) (pt 350 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 250 -100) (pt 250 0) (pt 350 -50) (pt 250 -100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 100 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 110 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 500 -250) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 10) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TO254P470X1000X2000-3P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.86 3.2)
+      (pt 7.94 3.2)
+      (pt 7.94 -2)
+      (pt -2.86 -2)
+      (pt -2.86 3.2))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.61 2.95)
+      (pt 7.69 2.95)
+      (pt 7.69 -1.75)
+      (pt -2.61 -1.75)
+      (pt -2.61 2.95))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.61 1.68)
+      (pt -1.34 2.95))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 7.69 -1.75)
+      (pt 7.69 2.95)
+      (pt -2.61 2.95)
+      (pt -2.61 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (padstack 0
+    (hole 1.34)
+    (plated true)
+    (pad (layer TCOP) (round 2.01))
+    (pad (layer INNER) (round 2.01))
+    (pad (layer BCOP) (round 2.01))
+   )
+   (padstack 1
+    (hole 1.34)
+    (plated true)
+    (pad (layer TCOP) (square 2.01))
+    (pad (layer INNER) (round 2.01))
+    (pad (layer BCOP) (square 2.01))
+   )
+   (model "BT139-600E,127.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

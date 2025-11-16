@@ -1,0 +1,234 @@
+(footprint "TO255P460X1020X2005-3P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-220AB Insulated")
+	(tags "Triac MT")
+	(property "Reference" "Q**"
+		(at -1.5 3 0)
+		(layer "F.SilkS")
+		(uuid "08bbb32a-4db7-406b-a22a-e5a37162521d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TO255P460X1020X2005-3P"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "09972a28-c6a0-478e-a90f-35b28bd05920")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6c53e0a-49d7-4df5-8186-614e83758625")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be9ae923-d242-4a1c-b5db-ae21eb5e8fe7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae9da13d-0f80-4d5a-8bba-72369ea51eb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.65 -2.95)
+		(end -2.65 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9cdce8d-1400-4100-804a-f097e15f97da")
+	)
+	(fp_line
+		(start 7.75 -2.95)
+		(end -2.65 -2.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18effb83-ba87-4eab-b65e-426540bf9b5d")
+	)
+	(fp_line
+		(start 7.75 1.65)
+		(end 7.75 -2.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77748960-d43d-46a5-a2ca-8e48885a1d55")
+	)
+	(fp_line
+		(start -2.9 -3.2)
+		(end 8 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a156c34c-48b1-419f-bb4b-35237c36fdbb")
+	)
+	(fp_line
+		(start -2.9 1.9)
+		(end -2.9 -3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e265f354-883f-4266-91c5-c1ef43f22f57")
+	)
+	(fp_line
+		(start 8 -3.2)
+		(end 8 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1576b1a-c9ff-4eb7-901e-2534db9ff42d")
+	)
+	(fp_line
+		(start 8 1.9)
+		(end -2.9 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d4272dab-8f76-486d-a09d-a885f88863cb")
+	)
+	(fp_line
+		(start -2.65 -2.95)
+		(end 7.75 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3650afaa-d816-4d3a-8909-e27e0d720581")
+	)
+	(fp_line
+		(start -2.65 -1.675)
+		(end -1.375 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "122ec8f2-bbae-4f70-a98f-dd5ecbd9dfa9")
+	)
+	(fp_line
+		(start -2.65 1.65)
+		(end -2.65 -2.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca161cc2-0dcb-409a-a524-8e0e551e428d")
+	)
+	(fp_line
+		(start 7.75 -2.95)
+		(end 7.75 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09f893e1-4a88-4791-a08f-bc77c7e2a9c8")
+	)
+	(fp_line
+		(start 7.75 1.65)
+		(end -2.65 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0ad94b8-6edf-4773-b880-d74baf958092")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "31ff0925-6039-42e7-8e2d-bbb5609a6144")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.98 1.98)
+		(drill 1.32)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9824931e-a43d-4e44-9251-c825876425f8")
+	)
+	(pad "2" thru_hole circle
+		(at 2.55 0)
+		(size 1.98 1.98)
+		(drill 1.32)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80fab883-384c-42d7-accd-7f9cb7c18b6f")
+	)
+	(pad "3" thru_hole circle
+		(at 5.1 0)
+		(size 1.98 1.98)
+		(drill 1.32)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "406bcb0a-c0b6-42a5-a9b6-c8427bbfce57")
+	)
+	(model "BTA10-600BWRG.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

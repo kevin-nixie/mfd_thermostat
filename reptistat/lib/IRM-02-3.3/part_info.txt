@@ -1,0 +1,9 @@
+Manufacturer=Mean Well
+PartNumber=IRM-02-3.3
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=4
+Version=2.1
+Released=2018-10-15 10:09:36
+Downloaded=2024-07-03 04:36:22
+3D=Y

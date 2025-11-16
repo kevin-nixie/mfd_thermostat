@@ -1,0 +1,16 @@
+.CPC1966Y :1 ;IXYS 3 A rms SPNO Solid State Relay, Zero Crossing, PCB Mount SCR, 240 V ac Maximum Load
+CPC1966Y
+*STM K
+*NGS
+*PLB 1="-LED" 2="+LED" 3="AC LOAD_1" 4="AC LOAD_2"
+*MXP 4
+*DFN CPC1966Y
+~!Mouser Part Number (849-CPC1966Y)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/CPC1966Y?qs=8uBHJDVwVqxNfAOiNv29Iw%3D%3D)
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (CPC1966Y)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/4bd38bcd53ac06cbf93d43ee226943fd.pdf)
+~!Height (10mm)
+~!3D_Model (CPC1966Y)
+CPC1966Y
+1.1!U 2.1!U 3.1!U 4.1!U 

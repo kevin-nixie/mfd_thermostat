@@ -1,0 +1,109 @@
+(footprint "PTF-77"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 13.1 -1.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "daf6543f-8a0a-436b-99bd-617808e40bee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PTF-77"
+		(at 12.6 0.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ffbe06d0-d438-4b77-8f85-70d83a7e8f8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2 4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcfa883e-2f4e-4642-97a5-763ce80ae8ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2305251016_XFCN-PTF-77_C717030.pdf"
+		(at 12.7 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e642cc73-e57d-4c02-96d9-128c872e29b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "C717030"
+		(at 12.5 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af7ea7bf-b704-460b-8660-ddfe09393889")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 -4.9)
+		(end 25.2 4.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e69a58f5-633d-4352-8805-0ef11877184f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 12.7 1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82641cea-1997-40e3-b05b-958bead3efb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 1.35 0 90)
+		(size 2.3 1.4)
+		(drill oval 1.7 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de768748-0ae0-4fdf-9608-f3381ff64b8c")
+	)
+	(pad "2" thru_hole oval
+		(at 23.85 0 90)
+		(size 2.3 1.4)
+		(drill oval 1.7 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a285b31b-4bbd-4cb5-80c6-7b6961e1c83b")
+	)
+)

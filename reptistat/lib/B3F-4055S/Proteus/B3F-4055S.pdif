@@ -1,0 +1,143 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "B3F-4055S"
+   (description "Tactile Switches 12X12 PROJ 7.3MM BTN TACTILE")
+   (family "SWI")
+   (package "B3F4055S")
+   (attribute "Datasheet Link" "https://media.digikey.com/pdf/Data%20Sheets/Omron%20PDFs/B3F.pdf")
+   (attribute "Geometry.Height" "7.5mm")
+   (attribute "Mouser Part Number" "653-B3F-4055S")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3F-4055S?qs=nUVjeaT6QSw5AU9Uc2mCbQ%3D%3D")
+   (attribute "Manufacturer_Name" "Omron Electronics")
+   (attribute "Manufacturer_Part_Number" "B3F-4055S")
+   (gate
+    (symbol "B3F-4055S")
+    (pin "COM_1" 1 PS)
+    (pin "COM_2" 2 PS)
+    (pin "NO_1" 3 PS)
+    (pin "NO_2" 4 PS)
+   )
+  )
+  (symbol "B3F-4055S"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "B3F4055S"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -12.25 8.5)
+      (pt -0.25 8.5)
+      (pt -0.25 -3.5)
+      (pt -12.25 -3.5)
+      (pt -12.25 8.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -14.4 9.5)
+      (pt 1.9 9.5)
+      (pt 1.9 -4.5)
+      (pt -14.4 -4.5)
+      (pt -14.4 9.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -12.25 6.3)
+      (pt -12.25 8.5)
+      (pt -0.25 8.5)
+      (pt -0.25 6.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -12.25 -1.3)
+      (pt -12.25 -3.5)
+      (pt -0.25 -3.5)
+      (pt -0.25 -1.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 1.35 -0.1)
+      (arc (pt 1.350 -0.100) (pt 1.350 -0.150) (pt 1.450 -0.050) (start 180.0) (sweep 180.0))
+      (pt 1.45 -0.1)
+      (arc (pt 1.450 -0.100) (pt 1.350 -0.150) (pt 1.450 -0.050) (start 180.0) (sweep .0))
+      (pt 1.35 -0.1))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt -12.500 0.000) (padstack 0))
+   (leg 3 (pt 0.000 5.000) (padstack 0))
+   (leg 4 (pt -12.500 5.000) (padstack 0))
+   (leg MH1 (pt -6.250 -2.000) (padstack 5))
+   (leg MH2 (pt -6.250 7.000) (padstack 6))
+   (padstack 0
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (round 1.800))
+    (pad (layer INNER) (round 1.800))
+    (pad (layer BCOP) (round 1.800))
+   )
+   (padstack 5
+    (hole 1.8)
+    (plated false)
+    (pad (layer TCOP) (round 0.900))
+    (pad (layer INNER) (round 0.900))
+    (pad (layer BCOP) (round 0.900))
+   )
+   (padstack 6
+    (hole 1.8)
+    (plated false)
+    (pad (layer TCOP) (round 0.900))
+    (pad (layer INNER) (round 0.900))
+    (pad (layer BCOP) (round 0.900))
+   )
+   (model "B3F-4055S.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

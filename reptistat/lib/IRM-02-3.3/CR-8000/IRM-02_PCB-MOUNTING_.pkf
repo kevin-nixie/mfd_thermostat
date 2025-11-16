@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "IRM-02_PCB-MOUNTING_"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "IRM-02_PCB-MOUNTING_")
+        (spec "default")
+    )
+)

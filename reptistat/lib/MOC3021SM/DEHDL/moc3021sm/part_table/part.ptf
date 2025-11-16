@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MOC3021SM'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "MOC3021SM" (!) = "", "SOP254P916X480-6N", "Small Outline Packages", "512-MOC3021SM", "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MOC3021SM?qs=ZS9em9a1DI4mnS4oQ%2FdKAA%3D%3D", "6-Pin DIP Random-Phase Triac Driver Output Optocoupler (250/400 V Peak)", "https://www.onsemi.com/pub/Collateral/MOC3023M-D.PDF", "4.8 mm"
+END_PART
+
+END.

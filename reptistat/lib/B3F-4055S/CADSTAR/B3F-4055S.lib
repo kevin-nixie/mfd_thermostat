@@ -1,0 +1,16 @@
+.B3F-4055S :1 ;Tactile Switches 12X12 PROJ 7.3MM BTN TACTILE
+B3F4055S
+*STM S
+*NGS
+*PLB 1="COM_1" 2="COM_2" 3="NO_1" 4="NO_2"
+*MXP 6
+*DFN B3F-4055S
+~!Mouser Part Number (653-B3F-4055S)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Omron-Electronics/B3F-4055S?qs=nUVjeaT6QSw5AU9Uc2mCbQ%3D%3D)
+~!Manufacturer_Name (Omron Electronics)
+~!Manufacturer_Part_Number (B3F-4055S)
+~!Link Datasheet (https://media.digikey.com/pdf/Data%20Sheets/Omron%20PDFs/B3F.pdf)
+~!Height (7.5mm)
+~!3D_Model (B3F-4055S)
+B3F-4055S
+1.1!U 2.1!U 3.1!U 4.1!U 

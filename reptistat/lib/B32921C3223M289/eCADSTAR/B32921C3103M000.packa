@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B32921C3223M289"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-02-16-16:38:10)
+    (mountForm default
+        (footprintRef "B32921C3103M000")
+        (spec "System")
+    )
+)

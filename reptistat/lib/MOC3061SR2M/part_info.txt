@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=MOC3061SR2M
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=1.1
+Released=2019-12-09 06:29:46
+Downloaded=2024-11-23 05:54:29
+3D=Y

@@ -1,0 +1,16 @@
+.MOC3061SR2M :1 ;Triac & SCR Output Optocouplers 6Pin600V Optocoupler Zero Cross Triac Dr
+SOT254P916X508-6N
+*STM IC
+*NGS
+*PLB 1="ANODE" 2="CATHODE" 3="N/C" 4="MAIN TERM._1" 5="NC" 6="MAIN TERM._2"
+*MXP 6
+*DFN MOC3061SR2M
+~!Mouser Part Number (512-MOC3061SR2M)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/MOC3061SR2M?qs=QsyUFYHC2%2FbVF%2F%252BX5tJ1cA%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (MOC3061SR2M)
+~!Link Datasheet (http://www.onsemi.com/pub/Collateral/MOC3163M-D.pdf)
+~!Height (5.08mm)
+~!3D_Model (MOC3061SR2M)
+MOC3061SR2M
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 
